@@ -1,6 +1,7 @@
 body {
     margin: 0;
     padding-top: 800px;
+    text-align: center;
 }
 
 .profile {
@@ -74,7 +75,7 @@ p {
 
 .menu {
     list-style: none;
-    position: absolute;
+    position: fixed;
     top: 10px;
     right: 30px;
     z-index: 10;
@@ -89,4 +90,21 @@ p {
     padding-left: 9px;
     font-family: fantasy;
     font-size: 20px;
+    color: tomato;
+}
+
+.links:hover {
+    background-color: chocolate;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+}
+
+.article:hover {
+    color: coral;
 }
